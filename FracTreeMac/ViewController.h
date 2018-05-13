@@ -8,5 +8,9 @@
 @property (nonatomic) FTConfiguration *configuration;
 @property (weak) IBOutlet FTView *fracTreeView;
 
+@property (weak, nonatomic) IBOutlet NSImageView *anchorImageView;
+@property (weak, nonatomic) IBOutlet NSImageView *baseLengthImageView;
+@property (weak, nonatomic) IBOutlet NSImageView *angleImageView;
+
 @end
 

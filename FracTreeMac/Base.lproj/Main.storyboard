@@ -710,12 +710,64 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cuF-Bk-ZxL" customClass="FTView">
-                                <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                                <rect key="frame" x="0.0" y="0.0" width="480" height="221"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </customView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mYB-sx-hKY">
+                                <rect key="frame" x="216" y="111" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" image="anchor" id="gWV-Mg-Eq0"/>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rjq-Wq-CS3">
+                                <rect key="frame" x="266" y="111" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" image="anchor" id="3sO-f2-ub5"/>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lag-29-r9Z">
+                                <rect key="frame" x="316" y="111" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" image="anchor" id="rdc-Ob-6I6"/>
+                            </imageView>
+                            <segmentedControl verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gk4-Zw-6ct">
+                                <rect key="frame" x="18" y="227" width="104" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <segmentedCell key="cell" borderStyle="border" alignment="left" segmentDistribution="fillEqually" style="rounded" trackingMode="selectOne" id="A9W-KD-kSB">
+                                    <font key="font" metaFont="system"/>
+                                    <segments>
+                                        <segment image="buttCap" width="32" selected="YES"/>
+                                        <segment image="roundCap" width="32" tag="1"/>
+                                        <segment image="squareCap" width="32">
+                                            <nil key="label"/>
+                                        </segment>
+                                    </segments>
+                                </segmentedCell>
+                            </segmentedControl>
+                            <segmentedControl verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hf1-h4-j0m">
+                                <rect key="frame" x="125" y="227" width="169" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <segmentedCell key="cell" borderStyle="border" alignment="left" segmentDistribution="fillEqually" style="rounded" trackingMode="selectOne" id="h3P-M3-4L9">
+                                    <font key="font" metaFont="system"/>
+                                    <segments>
+                                        <segment image="branch1" width="32"/>
+                                        <segment image="branch2" width="32" tag="1"/>
+                                        <segment image="branch3" width="32" selected="YES">
+                                            <nil key="label"/>
+                                        </segment>
+                                        <segment image="branch4" width="32">
+                                            <nil key="label"/>
+                                        </segment>
+                                        <segment image="branch5" width="32">
+                                            <nil key="label"/>
+                                        </segment>
+                                    </segments>
+                                </segmentedCell>
+                            </segmentedControl>
                         </subviews>
                     </view>
                     <connections>
+                        <outlet property="anchorImageView" destination="mYB-sx-hKY" id="dbC-Vl-y7B"/>
+                        <outlet property="angleImageView" destination="rjq-Wq-CS3" id="3Y8-SS-Xo9"/>
+                        <outlet property="baseLengthImageView" destination="Lag-29-r9Z" id="Aqk-aO-Wm1"/>
                         <outlet property="fracTreeView" destination="cuF-Bk-ZxL" id="A4u-X5-284"/>
                     </connections>
                 </viewController>
@@ -724,4 +776,15 @@
             <point key="canvasLocation" x="75" y="655"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="anchor" width="30" height="30"/>
+        <image name="branch1" width="21" height="21"/>
+        <image name="branch2" width="21" height="21"/>
+        <image name="branch3" width="21" height="21"/>
+        <image name="branch4" width="21" height="21"/>
+        <image name="branch5" width="21" height="21"/>
+        <image name="buttCap" width="15" height="15"/>
+        <image name="roundCap" width="15" height="15"/>
+        <image name="squareCap" width="15" height="15"/>
+    </resources>
 </document>
