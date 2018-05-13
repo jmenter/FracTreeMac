@@ -11,6 +11,8 @@
 @property (weak, nonatomic) IBOutlet NSImageView *anchorImageView;
 @property (weak, nonatomic) IBOutlet NSImageView *baseLengthImageView;
 @property (weak, nonatomic) IBOutlet NSImageView *angleImageView;
+@property (weak) IBOutlet NSSegmentedControl *capControl;
+@property (weak) IBOutlet NSSegmentedControl *branchCountControl;
 
 @end
 

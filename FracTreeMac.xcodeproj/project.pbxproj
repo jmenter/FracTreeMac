@@ -18,6 +18,7 @@
 		6329FC4920A8AA33007045B2 /* FTConfiguration+DisplayAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6329FC4420A8AA32007045B2 /* FTConfiguration+DisplayAdditions.m */; };
 		6329FC4D20A8AA82007045B2 /* FTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6329FC4B20A8AA82007045B2 /* FTView.m */; };
 		6329FC5020A8ABD8007045B2 /* CGAdditions.c in Sources */ = {isa = PBXBuildFile; fileRef = 6329FC4F20A8ABD8007045B2 /* CGAdditions.c */; };
+		636207DA20A8C92A00DEB2D2 /* NSImageView+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 636207D920A8C92A00DEB2D2 /* NSImageView+Extras.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,8 @@
 		6329FC4C20A8AA82007045B2 /* FTView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTView.h; sourceTree = "<group>"; };
 		6329FC4E20A8ABD7007045B2 /* CGAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGAdditions.h; sourceTree = "<group>"; };
 		6329FC4F20A8ABD8007045B2 /* CGAdditions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CGAdditions.c; sourceTree = "<group>"; };
+		636207D820A8C92A00DEB2D2 /* NSImageView+Extras.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSImageView+Extras.h"; sourceTree = "<group>"; };
+		636207D920A8C92A00DEB2D2 /* NSImageView+Extras.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSImageView+Extras.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,8 @@
 				6329FC2C20A8A8B9007045B2 /* AppDelegate.m */,
 				6329FC4C20A8AA82007045B2 /* FTView.h */,
 				6329FC4B20A8AA82007045B2 /* FTView.m */,
+				636207D820A8C92A00DEB2D2 /* NSImageView+Extras.h */,
+				636207D920A8C92A00DEB2D2 /* NSImageView+Extras.m */,
 				6329FC4E20A8ABD7007045B2 /* CGAdditions.h */,
 				6329FC4F20A8ABD8007045B2 /* CGAdditions.c */,
 				6329FC2E20A8A8B9007045B2 /* ViewController.h */,
@@ -184,6 +189,7 @@
 				6329FC4620A8AA33007045B2 /* FTConfiguration.m in Sources */,
 				6329FC2D20A8A8B9007045B2 /* AppDelegate.m in Sources */,
 				6329FC5020A8ABD8007045B2 /* CGAdditions.c in Sources */,
+				636207DA20A8C92A00DEB2D2 /* NSImageView+Extras.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

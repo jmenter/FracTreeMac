@@ -741,6 +741,9 @@
                                         </segment>
                                     </segments>
                                 </segmentedCell>
+                                <connections>
+                                    <action selector="valueChanged:" target="XfG-lQ-9wD" id="9kh-ds-y2d"/>
+                                </connections>
                             </segmentedControl>
                             <segmentedControl verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hf1-h4-j0m">
                                 <rect key="frame" x="125" y="227" width="169" height="24"/>
@@ -748,9 +751,9 @@
                                 <segmentedCell key="cell" borderStyle="border" alignment="left" segmentDistribution="fillEqually" style="rounded" trackingMode="selectOne" id="h3P-M3-4L9">
                                     <font key="font" metaFont="system"/>
                                     <segments>
-                                        <segment image="branch1" width="32"/>
+                                        <segment image="branch1" width="32" selected="YES"/>
                                         <segment image="branch2" width="32" tag="1"/>
-                                        <segment image="branch3" width="32" selected="YES">
+                                        <segment image="branch3" width="32">
                                             <nil key="label"/>
                                         </segment>
                                         <segment image="branch4" width="32">
@@ -761,6 +764,9 @@
                                         </segment>
                                     </segments>
                                 </segmentedCell>
+                                <connections>
+                                    <action selector="valueChanged:" target="XfG-lQ-9wD" id="fJ4-uA-DMN"/>
+                                </connections>
                             </segmentedControl>
                         </subviews>
                     </view>
@@ -768,6 +774,8 @@
                         <outlet property="anchorImageView" destination="mYB-sx-hKY" id="dbC-Vl-y7B"/>
                         <outlet property="angleImageView" destination="rjq-Wq-CS3" id="3Y8-SS-Xo9"/>
                         <outlet property="baseLengthImageView" destination="Lag-29-r9Z" id="Aqk-aO-Wm1"/>
+                        <outlet property="branchCountControl" destination="hf1-h4-j0m" id="BbC-eo-Gc9"/>
+                        <outlet property="capControl" destination="Gk4-Zw-6ct" id="rc7-Zn-c8X"/>
                         <outlet property="fracTreeView" destination="cuF-Bk-ZxL" id="A4u-X5-284"/>
                     </connections>
                 </viewController>
