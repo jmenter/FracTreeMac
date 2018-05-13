@@ -5,8 +5,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    // Do any additional setup after loading the view.
+    self.configuration = FTConfiguration.new;
+    self.fracTreeView.configuration = self.configuration;
 }
 
 @end

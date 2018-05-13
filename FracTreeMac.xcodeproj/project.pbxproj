@@ -12,6 +12,12 @@
 		6329FC3220A8A8BB007045B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6329FC3120A8A8BB007045B2 /* Assets.xcassets */; };
 		6329FC3520A8A8BB007045B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6329FC3320A8A8BB007045B2 /* Main.storyboard */; };
 		6329FC3820A8A8BB007045B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6329FC3720A8A8BB007045B2 /* main.m */; };
+		6329FC4620A8AA33007045B2 /* FTConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 6329FC3F20A8AA31007045B2 /* FTConfiguration.m */; };
+		6329FC4720A8AA33007045B2 /* FTConfigurationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6329FC4020A8AA31007045B2 /* FTConfigurationManager.m */; };
+		6329FC4820A8AA33007045B2 /* defaultConfigurations in Resources */ = {isa = PBXBuildFile; fileRef = 6329FC4120A8AA32007045B2 /* defaultConfigurations */; };
+		6329FC4920A8AA33007045B2 /* FTConfiguration+DisplayAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6329FC4420A8AA32007045B2 /* FTConfiguration+DisplayAdditions.m */; };
+		6329FC4D20A8AA82007045B2 /* FTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6329FC4B20A8AA82007045B2 /* FTView.m */; };
+		6329FC5020A8ABD8007045B2 /* CGAdditions.c in Sources */ = {isa = PBXBuildFile; fileRef = 6329FC4F20A8ABD8007045B2 /* CGAdditions.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +31,17 @@
 		6329FC3620A8A8BB007045B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6329FC3720A8A8BB007045B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6329FC3920A8A8BB007045B2 /* FracTreeMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FracTreeMac.entitlements; sourceTree = "<group>"; };
+		6329FC3F20A8AA31007045B2 /* FTConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTConfiguration.m; sourceTree = "<group>"; };
+		6329FC4020A8AA31007045B2 /* FTConfigurationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTConfigurationManager.m; sourceTree = "<group>"; };
+		6329FC4120A8AA32007045B2 /* defaultConfigurations */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = defaultConfigurations; sourceTree = "<group>"; };
+		6329FC4220A8AA32007045B2 /* FTConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTConfiguration.h; sourceTree = "<group>"; };
+		6329FC4320A8AA32007045B2 /* FTConfigurationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTConfigurationManager.h; sourceTree = "<group>"; };
+		6329FC4420A8AA32007045B2 /* FTConfiguration+DisplayAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FTConfiguration+DisplayAdditions.m"; sourceTree = "<group>"; };
+		6329FC4520A8AA32007045B2 /* FTConfiguration+DisplayAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FTConfiguration+DisplayAdditions.h"; sourceTree = "<group>"; };
+		6329FC4B20A8AA82007045B2 /* FTView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTView.m; sourceTree = "<group>"; };
+		6329FC4C20A8AA82007045B2 /* FTView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTView.h; sourceTree = "<group>"; };
+		6329FC4E20A8ABD7007045B2 /* CGAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGAdditions.h; sourceTree = "<group>"; };
+		6329FC4F20A8ABD8007045B2 /* CGAdditions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CGAdditions.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +74,13 @@
 		6329FC2A20A8A8B9007045B2 /* FracTreeMac */ = {
 			isa = PBXGroup;
 			children = (
+				6329FC4A20A8AA38007045B2 /* Configuration */,
 				6329FC2B20A8A8B9007045B2 /* AppDelegate.h */,
 				6329FC2C20A8A8B9007045B2 /* AppDelegate.m */,
+				6329FC4C20A8AA82007045B2 /* FTView.h */,
+				6329FC4B20A8AA82007045B2 /* FTView.m */,
+				6329FC4E20A8ABD7007045B2 /* CGAdditions.h */,
+				6329FC4F20A8ABD8007045B2 /* CGAdditions.c */,
 				6329FC2E20A8A8B9007045B2 /* ViewController.h */,
 				6329FC2F20A8A8B9007045B2 /* ViewController.m */,
 				6329FC3120A8A8BB007045B2 /* Assets.xcassets */,
@@ -68,6 +90,20 @@
 				6329FC3920A8A8BB007045B2 /* FracTreeMac.entitlements */,
 			);
 			path = FracTreeMac;
+			sourceTree = "<group>";
+		};
+		6329FC4A20A8AA38007045B2 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				6329FC4220A8AA32007045B2 /* FTConfiguration.h */,
+				6329FC3F20A8AA31007045B2 /* FTConfiguration.m */,
+				6329FC4520A8AA32007045B2 /* FTConfiguration+DisplayAdditions.h */,
+				6329FC4420A8AA32007045B2 /* FTConfiguration+DisplayAdditions.m */,
+				6329FC4320A8AA32007045B2 /* FTConfigurationManager.h */,
+				6329FC4020A8AA31007045B2 /* FTConfigurationManager.m */,
+				6329FC4120A8AA32007045B2 /* defaultConfigurations */,
+			);
+			path = Configuration;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +165,7 @@
 			files = (
 				6329FC3220A8A8BB007045B2 /* Assets.xcassets in Resources */,
 				6329FC3520A8A8BB007045B2 /* Main.storyboard in Resources */,
+				6329FC4820A8AA33007045B2 /* defaultConfigurations in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,7 +178,12 @@
 			files = (
 				6329FC3020A8A8B9007045B2 /* ViewController.m in Sources */,
 				6329FC3820A8A8BB007045B2 /* main.m in Sources */,
+				6329FC4D20A8AA82007045B2 /* FTView.m in Sources */,
+				6329FC4720A8AA33007045B2 /* FTConfigurationManager.m in Sources */,
+				6329FC4920A8AA33007045B2 /* FTConfiguration+DisplayAdditions.m in Sources */,
+				6329FC4620A8AA33007045B2 /* FTConfiguration.m in Sources */,
 				6329FC2D20A8A8B9007045B2 /* AppDelegate.m in Sources */,
+				6329FC5020A8ABD8007045B2 /* CGAdditions.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
