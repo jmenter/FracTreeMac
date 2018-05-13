@@ -1,10 +1,3 @@
-//
-//  AppDelegate.m
-//  FracTreeMac
-//
-//  Created by Jeff Menter on 5/13/18.
-//  Copyright © 2018 jeffmenter. All rights reserved.
-//
 
 #import "AppDelegate.h"
 
